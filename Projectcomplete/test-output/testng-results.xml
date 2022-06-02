@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5008" started-at="2022-06-02T17:10:09 IST" finished-at="2022-06-02T17:10:14 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5008" started-at="2022-06-02T17:10:09 IST" finished-at="2022-06-02T17:10:14 IST">
+      <class name="Restassured.deleteputnpatchmethod">
+        <test-method status="PASS" signature="deletem()[pri:0, instance:Restassured.deleteputnpatchmethod@ce1ed4]" name="deletem" duration-ms="3581" started-at="2022-06-02T17:10:09 IST" finished-at="2022-06-02T17:10:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletem -->
+        <test-method status="PASS" signature="testput(java.lang.String, java.lang.String)[pri:0, instance:Restassured.deleteputnpatchmethod@ce1ed4]" name="testput" duration-ms="788" started-at="2022-06-02T17:10:13 IST" data-provider="Testput" finished-at="2022-06-02T17:10:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yomesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dance]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testput -->
+        <test-method status="PASS" signature="testput(java.lang.String, java.lang.String)[pri:0, instance:Restassured.deleteputnpatchmethod@ce1ed4]" name="testput" duration-ms="562" started-at="2022-06-02T17:10:13 IST" data-provider="Testput" finished-at="2022-06-02T17:10:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tusjar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sqa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testput -->
+      </class> <!-- Restassured.deleteputnpatchmethod -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
