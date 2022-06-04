@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="2" name="Testff(failed)" parallel="tests">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="tests.exceldatalogin">
+        <methods>
+          <include name="finaldata"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.exceldatalogin -->
+    </classes>
+  </test> <!-- Testff(failed) -->
+  <test thread-count="2" name="Testch(failed)" parallel="tests">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="tests.exceldatalogin">
+        <methods>
+          <include name="finaldata" invocation-numbers="5 12 16"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.exceldatalogin -->
+    </classes>
+  </test> <!-- Testch(failed) -->
+</suite> <!-- Failed suite [Suite] -->

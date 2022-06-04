@@ -38,11 +38,12 @@ public class login {
 		us_pwd.sendKeys(password);
 	}
 	public void submit() throws IOException, InterruptedException {
-		loginbuton.click();
+		
 		String path="C:\\Users\\Admin_SRV\\eclipse-workspace\\Projectcomplete\\src\\test\\resources\\Screenshots\\img.png";
-	 File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-	 Files.copy(src,new File(path));
-	 Thread.sleep(3000);
+	 File src1=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+	 Files.copy(src1,new File(path));
+	 Thread.sleep(7000);
+	 loginbuton.click();
 	}
 	
 

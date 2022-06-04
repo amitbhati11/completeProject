@@ -25,6 +25,7 @@ String path="C:\\Users\\Admin_SRV\\eclipse-workspace\\Projectcomplete\\src\\test
 		if(!parent.equals(child)) {
 			driver.switchTo().window(child);
 			driver.findElement(By.xpath("//li//a[text()='Free Trial']")).click();
+			System.out.println("url for child"+driver.getCurrentUrl());
 			Thread.sleep(5000);
 			driver.close();
 		}
@@ -32,6 +33,7 @@ String path="C:\\Users\\Admin_SRV\\eclipse-workspace\\Projectcomplete\\src\\test
 	}
 	driver.switchTo().window(parent);
 	System.out.println("parent window is:"+driver.getTitle());
+	System.out.println("url for parent is:"+driver.getCurrentUrl());
 	
 	
 	}

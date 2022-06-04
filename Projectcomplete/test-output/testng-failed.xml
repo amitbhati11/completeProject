@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Restassured.getnpostmethod">
+      <class name="linkimagge.brokenlinkImage">
         <methods>
-          <include name="putmethodtest" invocation-numbers="0 1 2"/>
+          <include name="findbroknlinkimage"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- Restassured.getnpostmethod -->
+      </class> <!-- linkimagge.brokenlinkImage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

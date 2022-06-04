@@ -1,49 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5008" started-at="2022-06-02T17:10:09 IST" finished-at="2022-06-02T17:10:14 IST">
+  <suite name="Default suite" duration-ms="141" started-at="2022-06-04T16:43:25 IST" finished-at="2022-06-04T16:43:25 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5008" started-at="2022-06-02T17:10:09 IST" finished-at="2022-06-02T17:10:14 IST">
-      <class name="Restassured.deleteputnpatchmethod">
-        <test-method status="PASS" signature="deletem()[pri:0, instance:Restassured.deleteputnpatchmethod@ce1ed4]" name="deletem" duration-ms="3581" started-at="2022-06-02T17:10:09 IST" finished-at="2022-06-02T17:10:12 IST">
+    <test name="Default test" duration-ms="141" started-at="2022-06-04T16:43:25 IST" finished-at="2022-06-04T16:43:25 IST">
+      <class name="javaprogram.pattern">
+        <test-method status="PASS" signature="alphanumeric()[pri:0, instance:javaprogram.pattern@7c7811]" name="alphanumeric" duration-ms="32" started-at="2022-06-04T16:43:25 IST" finished-at="2022-06-04T16:43:25 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deletem -->
-        <test-method status="PASS" signature="testput(java.lang.String, java.lang.String)[pri:0, instance:Restassured.deleteputnpatchmethod@ce1ed4]" name="testput" duration-ms="788" started-at="2022-06-02T17:10:13 IST" data-provider="Testput" finished-at="2022-06-02T17:10:13 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[yomesh]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[dance]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- alphanumeric -->
+        <test-method status="PASS" signature="completepyramide()[pri:0, instance:javaprogram.pattern@7c7811]" name="completepyramide" duration-ms="32" started-at="2022-06-04T16:43:25 IST" finished-at="2022-06-04T16:43:25 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testput -->
-        <test-method status="PASS" signature="testput(java.lang.String, java.lang.String)[pri:0, instance:Restassured.deleteputnpatchmethod@ce1ed4]" name="testput" duration-ms="562" started-at="2022-06-02T17:10:13 IST" data-provider="Testput" finished-at="2022-06-02T17:10:14 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[tusjar]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sqa]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- completepyramide -->
+        <test-method status="PASS" signature="leftsidecompletepatrn()[pri:0, instance:javaprogram.pattern@7c7811]" name="leftsidecompletepatrn" duration-ms="0" started-at="2022-06-04T16:43:25 IST" finished-at="2022-06-04T16:43:25 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testput -->
-      </class> <!-- Restassured.deleteputnpatchmethod -->
+        </test-method> <!-- leftsidecompletepatrn -->
+        <test-method status="PASS" signature="leftsidebottompatrn()[pri:0, instance:javaprogram.pattern@7c7811]" name="leftsidebottompatrn" duration-ms="0" started-at="2022-06-04T16:43:25 IST" finished-at="2022-06-04T16:43:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leftsidebottompatrn -->
+        <test-method status="PASS" signature="lefttringle()[pri:0, instance:javaprogram.pattern@7c7811]" name="lefttringle" duration-ms="15" started-at="2022-06-04T16:43:25 IST" finished-at="2022-06-04T16:43:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lefttringle -->
+        <test-method status="PASS" signature="righttringle()[pri:0, instance:javaprogram.pattern@7c7811]" name="righttringle" duration-ms="0" started-at="2022-06-04T16:43:25 IST" finished-at="2022-06-04T16:43:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- righttringle -->
+        <test-method status="PASS" signature="rightbottom()[pri:0, instance:javaprogram.pattern@7c7811]" name="rightbottom" duration-ms="0" started-at="2022-06-04T16:43:25 IST" finished-at="2022-06-04T16:43:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rightbottom -->
+        <test-method status="PASS" signature="makerighttringle()[pri:0, instance:javaprogram.pattern@7c7811]" name="makerighttringle" duration-ms="0" started-at="2022-06-04T16:43:25 IST" finished-at="2022-06-04T16:43:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makerighttringle -->
+      </class> <!-- javaprogram.pattern -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
