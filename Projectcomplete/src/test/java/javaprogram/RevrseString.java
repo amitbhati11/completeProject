@@ -8,7 +8,6 @@ public class RevrseString {
 		String name="Subhash";
 		int count=name.length();
 		String b="";
-		
 		for(int i=name.length()-1;i>=0;i--) {
 			
 			b=b+name.charAt(i);

@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="141" started-at="2022-06-04T16:43:25 IST" finished-at="2022-06-04T16:43:25 IST">
+  <suite name="Default suite" duration-ms="70" started-at="2022-06-04T18:03:52 IST" finished-at="2022-06-04T18:03:52 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="141" started-at="2022-06-04T16:43:25 IST" finished-at="2022-06-04T16:43:25 IST">
-      <class name="javaprogram.pattern">
-        <test-method status="PASS" signature="alphanumeric()[pri:0, instance:javaprogram.pattern@7c7811]" name="alphanumeric" duration-ms="32" started-at="2022-06-04T16:43:25 IST" finished-at="2022-06-04T16:43:25 IST">
+    <test name="Default test" duration-ms="70" started-at="2022-06-04T18:03:52 IST" finished-at="2022-06-04T18:03:52 IST">
+      <class name="javaprogram.factorial">
+        <test-method status="PASS" signature="testfact()[pri:0, instance:javaprogram.factorial@10d0686]" name="testfact" duration-ms="10" started-at="2022-06-04T18:03:52 IST" finished-at="2022-06-04T18:03:52 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- alphanumeric -->
-        <test-method status="PASS" signature="completepyramide()[pri:0, instance:javaprogram.pattern@7c7811]" name="completepyramide" duration-ms="32" started-at="2022-06-04T16:43:25 IST" finished-at="2022-06-04T16:43:25 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- completepyramide -->
-        <test-method status="PASS" signature="leftsidecompletepatrn()[pri:0, instance:javaprogram.pattern@7c7811]" name="leftsidecompletepatrn" duration-ms="0" started-at="2022-06-04T16:43:25 IST" finished-at="2022-06-04T16:43:25 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- leftsidecompletepatrn -->
-        <test-method status="PASS" signature="leftsidebottompatrn()[pri:0, instance:javaprogram.pattern@7c7811]" name="leftsidebottompatrn" duration-ms="0" started-at="2022-06-04T16:43:25 IST" finished-at="2022-06-04T16:43:25 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- leftsidebottompatrn -->
-        <test-method status="PASS" signature="lefttringle()[pri:0, instance:javaprogram.pattern@7c7811]" name="lefttringle" duration-ms="15" started-at="2022-06-04T16:43:25 IST" finished-at="2022-06-04T16:43:25 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lefttringle -->
-        <test-method status="PASS" signature="righttringle()[pri:0, instance:javaprogram.pattern@7c7811]" name="righttringle" duration-ms="0" started-at="2022-06-04T16:43:25 IST" finished-at="2022-06-04T16:43:25 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- righttringle -->
-        <test-method status="PASS" signature="rightbottom()[pri:0, instance:javaprogram.pattern@7c7811]" name="rightbottom" duration-ms="0" started-at="2022-06-04T16:43:25 IST" finished-at="2022-06-04T16:43:25 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- rightbottom -->
-        <test-method status="PASS" signature="makerighttringle()[pri:0, instance:javaprogram.pattern@7c7811]" name="makerighttringle" duration-ms="0" started-at="2022-06-04T16:43:25 IST" finished-at="2022-06-04T16:43:25 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- makerighttringle -->
-      </class> <!-- javaprogram.pattern -->
+        </test-method> <!-- testfact -->
+      </class> <!-- javaprogram.factorial -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
