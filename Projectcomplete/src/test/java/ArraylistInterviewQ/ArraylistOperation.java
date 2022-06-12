@@ -6,7 +6,7 @@ import java.util.Collections;
 public class ArraylistOperation {
 	
 	public static void main(String [] args) {
-		//create to array list and print
+		//create to-array list and print
 		
 		ArrayList<Integer> li=new ArrayList<Integer>();
 		li.add(1);
