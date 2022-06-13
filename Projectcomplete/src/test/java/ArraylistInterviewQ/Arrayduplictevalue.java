@@ -12,10 +12,10 @@ public class Arrayduplictevalue {
 	    						 n[4]= 5;
 	     
 	
-	for(int i=0;i<n.length;i++) {
+	for(int i=0;i<n.length-1;i++) {
 		for(int j=i+1;j<n.length;j++) {
-			if(n[i].equals(n[j])) {
-				System.out.println(n);
+			if(n[i]==n[j]) {
+				System.out.println(n[i]);
 			}
 		}
 	}
