@@ -1,6 +1,7 @@
 package MapinterVQ;
 
 import java.util.Comparator;
+import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeMap;
 
@@ -13,9 +14,9 @@ public class Treemap {
 		//sortedMap extend map which implemnent by Tree map class
 		//Treemap does not work upon hashing concept(hascode>index>key>val>)
 		//maintan ascending order by default and sorting(its a sorted map) on keys
-		//red,black concept if node is red then child should be black,leaves are blacks
-		// node have two leave thry end with null
-		//every route have three black node
+		//red,black node concept if node is red then child should be black,leaves are blacks
+		// each node have two leave and end with null
+		//every route have three black node,lower node should be on left side and higher node should be on right side
 		
 		TreeMap<Integer,String> map=new TreeMap<Integer,String>();
 		map.put(500,"A");
@@ -59,6 +60,19 @@ public class Treemap {
 		map2.put("Ted", 50);
 		map2.put("Garry", 1000);
 		map2.forEach((k,v)->System.out.println("k: "+k+ " v:"+v));
+		System.out.println(map2.get("Raka"));
+		System.out.println("=========");
+		     Iterator<String> it=map2.keySet().iterator();
+		     while(it.hasNext()) {
+		    	 
+		    	         String key=it.next();
+		    	         System.out.println(" key: "+key);
+		    	        Integer val= map2.get(key);
+		    	        System.out.println(" Value: "+val);
+		    	        System.out.println("=========");
+		    	        
+		     }
 	}
+	
 
 }
