@@ -6,6 +6,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 public  class arraylistduplicatevalue {
@@ -53,7 +54,17 @@ public  class arraylistduplicatevalue {
 		ArrayList<String> l5=new ArrayList(lsh);
 		System.out.println(l5);
 		
+		//3. findout duplicate values in Arraylist
 		
+		ArrayList<Integer> duplicate=new ArrayList<>(Arrays.asList(1,2,3,4,5,2,3,1));
+		System.out.println(duplicate);
+		
+		Set<Integer> se=new HashSet<>();
+		for(int b:duplicate) {
+			if(se.add(b)==false) {
+				System.out.println("duplicate are: "+b);
+			}
+		}
 		
 		
 	}
